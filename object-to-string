@@ -1,0 +1,9 @@
+$data = Array ( [0] => stdClass Object ( [id] => 1 [chapter_name] =>Socio demographical status ) );
+
+//step:1
+echo $data[0]->chapter_name;
+
+//step:2
+foreach($data as $value){
+  echo $value->chapter_name;
+}
